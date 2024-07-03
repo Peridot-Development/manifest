@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://github.com/Peridot-Development" name="peridot-dev"/>
+
+  <project path="device/xiaomi/peridot" name="device_xiaomi_peridot" revision="14.0" remote="peridot-dev" />
+
+  <!-- Not ready yet -->
+  <!-- project path="vendor/xiaomi/peridot" name="vendor_xiaomi_peridot" revision="14.0" remote="peridot-dev" /-->
+  <!-- project path="kernel/xiaomi/peridot" name="kernel_xiaomi_peridot" revision="14.0" remote="peridot-dev" /-->
+ 
+  <project path="hardware/xiaomi" name="hardware_xiaomi" revision="14.0" remote="peridot-dev" />
+</manifest>
